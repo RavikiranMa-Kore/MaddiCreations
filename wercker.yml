@@ -34,3 +34,5 @@ build:
         code: |
           echo "node version $(node -v) running"
           echo "npm version $(npm -v) running"
+  - mzp/http-notify:
+           url: https://qa1.kore.com/hooks/b11a76a0977067f5ced45f8a7080578e
